@@ -1,0 +1,20 @@
+name: Notify on publish
+
+on:
+  registry_package:
+    types:
+      - published
+      - updated
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+
+    steps:
+      - name: Debug context
+        uses: actions/github-script@v6
+        with:
+          script: console.log(context)
