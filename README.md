@@ -12,5 +12,5 @@ v1.0.2
 
 ```console
 $ npm version prepatch
-v1.0.3-1
+v1.0.3-0
 ```
