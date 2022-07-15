@@ -14,4 +14,4 @@ jobs:
       - name: Debug context
         uses: actions/github-script@v6
         with:
-          script: console.log(context)
+          script: "console.dir(context, { depth: null })"
