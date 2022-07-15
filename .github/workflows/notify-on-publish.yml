@@ -1,10 +1,7 @@
 name: Notify on publish
 
 on:
-  registry_package:
-    action:
-      - published
-      - updated
+  registry_package: {}
 
 jobs:
   notify:
