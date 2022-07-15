@@ -1,6 +1,6 @@
 {
   "name": "@inway/poc-pkg-node",
-  "version": "1.0.4-2",
+  "version": "1.0.4-3",
   "description": "Simple test package",
   "main": "index.js",
   "scripts": {
