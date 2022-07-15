@@ -1,0 +1,20 @@
+{
+  "name": "@inway/poc-pkg-node",
+  "version": "1.0.0",
+  "description": "Simple test package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inway/poc-pkg-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inway/poc-pkg-node/issues"
+  },
+  "homepage": "https://github.com/inway/poc-pkg-node#readme"
+}
